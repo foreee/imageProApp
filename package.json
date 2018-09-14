@@ -9,7 +9,16 @@
   },
   "dependencies": {
     "react": "16.0.0",
-    "react-native": "0.51.0"
+    "react-native": "0.51.0",
+    "react-native-camera": "1.0.0",
+    "react-native-fs": "^2.9.10",
+    "react-native-image-crop-picker": "^0.20.3",
+    "react-native-image-progress": "^1.1.1",
+    "react-native-img-cache": "^1.5.3",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^1.0.0-beta.27",
+    "react-navigation-redux-helpers": "^1.0.3",
+    "react-redux": "^5.0.6"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
