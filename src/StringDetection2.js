@@ -90,7 +90,7 @@ export default class StringDetection2 extends React.Component {
         <Text style={[styles.addViewStyle,styles.titleText,{height:250}]}> {this.state.ocrResult} </Text>
         
         <Button
-          title="身份证检测（未完成）"
+          title="人脸身份识别（未完成）"
           onPress={() =>
             navigate('ScanIdentify', { name: 'ScanIdentify' })
           }
