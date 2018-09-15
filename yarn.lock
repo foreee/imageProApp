@@ -1976,6 +1976,10 @@ csstype@^2.5.2:
   version "2.5.7"
   resolved "http://registry.npm.taobao.org/csstype/download/csstype-2.5.7.tgz#bf9235d5872141eccfb2d16d82993c6b149179ff"
 
+ctx-polyfill@lifaon74/ctx-polyfill:
+  version "1.1.4"
+  resolved "https://codeload.github.com/lifaon74/ctx-polyfill/tar.gz/f39f2d22be29dc87f211e1c363edb324bee173b4"
+
 cycle@1.0.x:
   version "1.0.3"
   resolved "http://registry.npm.taobao.org/cycle/download/cycle-1.0.3.tgz#21e80b2be8580f98b468f379430662b046c34ad2"
@@ -5331,6 +5335,12 @@ react-native-camera@^1.2.0:
     lodash "^4.17.4"
     prop-types "^15.5.10"
 
+react-native-canvas@^0.1.23:
+  version "0.1.23"
+  resolved "http://registry.npm.taobao.org/react-native-canvas/download/react-native-canvas-0.1.23.tgz#2c147ff16c511505ba07e9042e93b7291988dc30"
+  dependencies:
+    ctx-polyfill lifaon74/ctx-polyfill
+
 react-native-cli@^2.0.1:
   version "2.0.1"
   resolved "http://registry.npm.taobao.org/react-native-cli/download/react-native-cli-2.0.1.tgz#f2cd3c7aa1b83828cdfba630e2dfd817df766d54"
@@ -5363,9 +5373,9 @@ react-native-fs@^2.11.15:
     base-64 "^0.1.0"
     utf8 "^2.1.1"
 
-react-native-image-crop-picker@^0.21.1:
-  version "0.21.1"
-  resolved "http://registry.npm.taobao.org/react-native-image-crop-picker/download/react-native-image-crop-picker-0.21.1.tgz#0903b11644e88cca3d178e3a16b451a310969b8b"
+react-native-image-picker@^0.26.10:
+  version "0.26.10"
+  resolved "http://registry.npm.taobao.org/react-native-image-picker/download/react-native-image-picker-0.26.10.tgz#0bb9ab928984948c67aee0b9e64216bee007a9fc"
 
 react-native-image-progress@^1.1.1:
   version "1.1.1"
@@ -5385,6 +5395,10 @@ react-native-safe-area-view@^0.10.0:
   dependencies:
     hoist-non-react-statics "^2.3.1"
 
+react-native-scanidcard@^1.0.9:
+  version "1.0.9"
+  resolved "http://registry.npm.taobao.org/react-native-scanidcard/download/react-native-scanidcard-1.0.9.tgz#e4bd6d0f9d604f2dbdd083a80859574cdf4b7eae"
+
 react-native-screens@^1.0.0-alpha.10:
   version "1.0.0-alpha.10"
   resolved "http://registry.npm.taobao.org/react-native-screens/download/react-native-screens-1.0.0-alpha.10.tgz#3e22e57592ad8050a8ebcc789d2d3da4dd5e94d9"
@@ -5400,6 +5414,10 @@ react-native-tab-view@^1.0.0:
   resolved "http://registry.npm.taobao.org/react-native-tab-view/download/react-native-tab-view-1.0.2.tgz#66e0bc6d38a227ed2b212e3a256b7902f6ce02ed"
   dependencies:
     prop-types "^15.6.1"
+
+react-native-tesseract-ocr@^1.0.10:
+  version "1.0.10"
+  resolved "http://registry.npm.taobao.org/react-native-tesseract-ocr/download/react-native-tesseract-ocr-1.0.10.tgz#f11170bd7d1708495687c842b934eb3e412a0fe6"
 
 react-native-vector-icons@^5.0.0:
   version "5.0.0"

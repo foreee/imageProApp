@@ -11,6 +11,7 @@ import {Button,Platform, StyleSheet, Text, View} from 'react-native';
 import {createStackNavigator } from 'react-navigation';
 import ScanIdentify from './src/ScanIdentify';
 import StringDetection from './src/StringDetection';
+import StringDetection2 from './src/StringDetection2';
 
 
 const instructions = Platform.select({
@@ -57,9 +58,10 @@ const RootStack = createStackNavigator(
   {
     ScanIdentify: ScanIdentify,
     StringDetection: StringDetection,
+    StringDetection2: StringDetection2,
   },
   {
-    initialRouteName: 'ScanIdentify',
+    initialRouteName: 'StringDetection',
     navigationOptions: {
       headerRight: <View />,
       headerStyle: {

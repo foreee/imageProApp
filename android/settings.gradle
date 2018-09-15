@@ -1,4 +1,18 @@
 rootProject.name = 'imagePro'
+include ':react-native-tesseract-ocr'
+project(':react-native-tesseract-ocr').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-tesseract-ocr/android')
+include ':react-native-scanidcard'
+project(':react-native-scanidcard').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-scanidcard/android/app')
+include ':idcard-library'
+project(':idcard-library').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-scanidcard/android/idcard-library')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
+include ':react-native-fs'
+project(':react-native-fs').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fs/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
 
 
 include ':app'
